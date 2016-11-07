@@ -26,4 +26,4 @@ def downloadPGNs(start, end):
         games = games + downloadPGN(i)
     return games
         
-print (downloadPGNs(1145, 1147))
+print (downloadPGNs(1000, 1147))
