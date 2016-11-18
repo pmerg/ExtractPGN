@@ -1,3 +1,3 @@
 ## Summary
 
-Simple python script for loading and merging chess games in TWIC chess magazine.
+Python script for merging chess games in TWIC chess magazines into a single PGN file.
