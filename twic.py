@@ -1,5 +1,5 @@
 #
-# Script for loading and merging TWIC chess games. This is a free and efficient way to build a megadatabase for chess.
+# Script for merging TWIC chess games
 #
 
 from urllib import urlopen
