@@ -8,7 +8,7 @@ Mega database is a gigantic database containing all master games from 1560. Ches
 
 It is **very expensive** and it only works for Windows. Furthermore, the database is in the Chessbase format, you will need the Chessbase software to load the games.
 
-This project provides your a workflow to build your own mega database in the PGN format. The workflow allows you to download new games from the Internet. Your database will be fresh and modern.
+This project provides your a workflow to build your own mega database in the PGN format. The workflow allows you to download new games from the Internet. You can also filter your games by names, year, results etc. Your database will be fresh and modern. 
 
 You should use this project:
 
@@ -22,3 +22,4 @@ The workflow is simple to follow and suitable for all players.
 
 * Unix operating systems
 * Python and IPython
+* [pgn-extract](https://www.cs.kent.ac.uk/people/staff/djb/pgn-extract)
