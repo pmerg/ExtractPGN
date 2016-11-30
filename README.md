@@ -23,3 +23,5 @@ The workflow is simple to follow and suitable for all players.
 * Unix operating systems
 * Python and IPython
 * [pgn-extract](https://www.cs.kent.ac.uk/people/staff/djb/pgn-extract)
+* [python-chess](https://pypi.python.org/pypi/python-chess)
+
