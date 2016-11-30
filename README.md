@@ -12,7 +12,7 @@ This project provides your a workflow to build your own mega database in the PGN
 
 You should use this project:
 
-* Build your own mega database for free
+* Build your own mega database **for free**
 * Use it on any operating systems
 * Update it with the latest games (Chessbase only updates its product once a year)
 
