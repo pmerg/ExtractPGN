@@ -14,7 +14,7 @@ You should use this project:
 
 * Build your own PGN database **for free**
 * Use it on any operating systems
-* Update it with the latest games (Chessbase only updates its product once a year)
+* Automatically update it with the latest games (Chessbase only updates its product once a year)
 
 The workflow is simple to follow and suitable for all players.
 
