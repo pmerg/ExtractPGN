@@ -1,6 +1,6 @@
 ## Summary
 
-Mega database is a gigantic database containing all master games from 1560. Chessbase sells its Mega database ([product page](https://shop.chessbase.com/en/products/mega_database_2016)) for $170 USD.
+Mega database is a gigantic database containing all master games from 1560. Chessbase sells its mega database ([product page](https://shop.chessbase.com/en/products/mega_database_2016)) for $170 USD.
 
 <p align="center">
   <img src='https://shop.chessbase.com/en/pics/bp_7853'>
