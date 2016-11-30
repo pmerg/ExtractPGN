@@ -16,6 +16,8 @@ You should use this project:
 * Use it on any operating systems
 * Update it with the latest games (Chessbase only updates its product once a year)
 
+The workflow is simple to follow and suitable for all chess players.
+
 ## Prerequisites 
 
 * Unix operating systems
