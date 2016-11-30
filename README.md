@@ -16,4 +16,7 @@ You should like this project:
 * You can use it on any operating systems
 * You can update it with the latest games (Chessbase only updates its product once a year)
 
+## Prerequisites 
 
+* Unix operating systems
+* Python and IPython
