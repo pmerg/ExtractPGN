@@ -10,11 +10,11 @@ It is **very expensive** and it only works for Windows. Furthermore, the databas
 
 This project provides your a workflow to build your own mega database in the PGN format. The workflow allows you to download new games from the Internet. Your database will be fresh and modern.
 
-You should like this project:
+You should use this project:
 
-* You can build your own mega database for free
-* You can use it on any operating systems
-* You can update it with the latest games (Chessbase only updates its product once a year)
+* Build your own mega database for free
+* Use it on any operating systems
+* Update it with the latest games (Chessbase only updates its product once a year)
 
 ## Prerequisites 
 
