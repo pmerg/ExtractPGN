@@ -1,7 +1,9 @@
 import os
+import sys
 import urllib
 import urlparse
 from lxml import html
+from multiprocessing.dummy import Pool as ThreadPool 
 
 def readGameLinks(url, cur=1):
     links = []
@@ -20,11 +22,15 @@ def readGameLinks(url, cur=1):
 def readPGN(url):
     return urllib.urlopen(url).read()
 
-readPGN('http://www.chessgames.com/perl/nph-chesspgn?gid=1652621&text=1')
-
-games = readGameLinks('http://www.chessgames.com/perl/chessplayer?pid=128162')
-pgn = ''
-
-for game in games:
+def readGame(game):
     url = 'http://www.chessgames.com/perl/nph-chesspgn?gid={0}&text=1'.format(game)
-    pgn = pgn + readPGN(url) + '\n\n'
+    return readPGN(url) + '\n\n'
+
+# Parse all games for the player
+games = readGameLinks(sys.argv[1])
+
+pool = ThreadPool(10)
+results = pool.map(readGame, games)
+
+print results
+print ''.join(results)
