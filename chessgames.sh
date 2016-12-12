@@ -39,4 +39,5 @@ python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=98434  > "Ta
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=54882  > "Valentina Gunina.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=102346 > "Ju Wenjun.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=10940  > "Alexandra Kosteniuk.pgn"
+python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=21922  > "Paul Keres.pgn"
 
