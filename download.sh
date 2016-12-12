@@ -36,3 +36,7 @@ python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=15874  > "Ga
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=130615 > "Wei Yi.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=11733  > "Loek van Wely.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=98434  > "Tania Sachdev.pgn"
+python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=54882  > "Valentina Gunina.pgn"
+python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=102346 > "Ju Wenjun.pgn"
+python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=10940  > "Alexandra Kosteniuk.pgn"
+
