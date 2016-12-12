@@ -24,7 +24,7 @@ def readPGN(url):
 
 def readGame(game):
     url = 'http://www.chessgames.com/perl/nph-chesspgn?gid={0}&text=1'.format(game)
-    return readPGN(url) + '\n\n'
+    return readPGN(url) + '\n'
 
 # Parse all games for the player
 games = readGameLinks(sys.argv[1])
@@ -32,5 +32,4 @@ games = readGameLinks(sys.argv[1])
 pool = ThreadPool(10)
 results = pool.map(readGame, games)
 
-print results
 print ''.join(results)
