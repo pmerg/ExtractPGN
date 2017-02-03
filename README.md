@@ -4,6 +4,6 @@ Chessgames and TWIC provide mechanism for accessing the latest chess games. Unfo
 
 This project provides simple Python scripts to merge the games into a single PGN file. It is simple, quick and free.
 
-## Source from Chessgames
+### Source from Chessgames
 
-## Source from TWIC
+### Source from TWIC
