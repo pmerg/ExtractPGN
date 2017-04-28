@@ -17,7 +17,7 @@ def readGameLinks(url, cur=1):
             elif ('perl/chess.pl?page=' + str(cur+1)) in link.get("href") and hasNext == False:
                 hasNext = True
                 links = links + readGameLinks('http://www.chessgames.com/' + link.get("href"), cur=cur+1)
-    return links
+    return links.reverse()
 
 def readPGN(url):
     return urllib.urlopen(url).read()
