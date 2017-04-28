@@ -1,4 +1,4 @@
-
+python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=52948  > "Magnus Carlsen.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=17316  > "Levon Aronian.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=12088  > "Viswanathan Anand.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=15940  > "Garry Kasparov.pgn"
@@ -41,4 +41,3 @@ python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=102346 > "Ju
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=12183  > "Vassily Ivanchuk .pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=10940  > "Alexandra Kosteniuk.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=21922  > "Paul Keres.pgn"
-
