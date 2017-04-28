@@ -6,4 +6,6 @@ This project provides simple Python scripts to merge the games into a single PGN
 
 ### Source from Chessgames
 
+Run the `buildCG.sh` file
+
 ### Source from TWIC
