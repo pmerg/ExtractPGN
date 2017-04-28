@@ -8,7 +8,8 @@ from multiprocessing.dummy import Pool as ThreadPool
 def readGameLinks(url, cur=1):
     links = []
     page = html.fromstring(urllib.urlopen(url).read())
-    hasNext = False
+    hasNext = False    
+    nextURL = None
     for link in page.xpath("//a"):
         if link.get("href") != None:
             if 'chessgame?gid' in link.get("href"):
@@ -16,8 +17,10 @@ def readGameLinks(url, cur=1):
                 links.append(parsed['gid'])
             elif ('perl/chess.pl?page=' + str(cur+1)) in link.get("href") and hasNext == False:
                 hasNext = True
-                links = links + readGameLinks('http://www.chessgames.com/' + link.get("href"), cur=cur+1)
-    return links.reverse()
+                nextURL = 'http://www.chessgames.com/' + link.get("href")
+    if nextURL is not None:
+        links = links + readGameLinks(nextURL, cur=cur+1)    
+    return links
 
 def readPGN(url):
     return urllib.urlopen(url).read()
@@ -26,10 +29,18 @@ def readGame(game):
     url = 'http://www.chessgames.com/perl/nph-chesspgn?gid={0}&text=1'.format(game)
     return readPGN(url) + '\n'
 
-# Parse all games for the player
-games = readGameLinks(sys.argv[1])
+# http://www.chessgames.com/perl/chessplayer?pid=24694
+url = sys.argv[1]
 
-pool = ThreadPool(10)
-results = pool.map(readGame, games)
+toks = url.split('?')
+
+# http://www.chessgames.com/perl/chess.pl?page=1&pid=24694
+url = 'http://www.chessgames.com/perl/chess.pl?page=1&' + toks[1]
+
+# Parse all games for the player
+games = list(reversed(readGameLinks(url)))
+
+# Read the games
+results = [readGame(i) for i in games]
 
 print ''.join(results)
