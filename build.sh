@@ -13,6 +13,7 @@ python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=10900  > "Mi
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=12181  > "Nigel Short.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=95915  > "Welsley So.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=78863  > "Wang Hao.pgn"
+python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=13728  > "Deep Though.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=11207  > "Mikhail  Botvinnik.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=21136  > "Boris Spassky.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=16149  > "Tigran Petrosian.pgn"
