@@ -8,6 +8,6 @@ This project provides simple Python scripts to merge the games into a single PGN
 
 > http://www.smallchess.com/Games/
 
-### Source from Chessgames
+### How to use?
 
-Run the `buildCG.sh` file
+Run `build.sh`
