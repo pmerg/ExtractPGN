@@ -4,7 +4,7 @@ Chessgames provides mechanism for accessing the latest chess games. Unfortunatle
 
 This project provides simple Python scripts to merge the games into a single PGN file. It is simple, quick and free.
 
-[SmallChess](www.smallchess.com) uses this project to generate PGN files for it's apps.
+[SmallChess](http://www.smallchess.com) uses this project to generate PGN files for it's apps.
 
 > http://www.smallchess.com/Games/
 
