@@ -10,4 +10,4 @@ This project provides simple Python scripts to merge the games into a single PGN
 
 ### How to use?
 
-Run `build.sh`. Please look at `build.sh` for further details.
+Run `build.sh`. Please look at `build.sh` for further details. You might need to install some Python dependencies. Run the script and fix the errors.
