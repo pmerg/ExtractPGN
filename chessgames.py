@@ -15,9 +15,11 @@ def readGameLinks(url, cur=1):
             if 'chessgame?gid' in link.get("href"):
                 parsed = dict(urlparse.parse_qsl(urlparse.urlsplit(link.get("href")).query))
                 links.append(parsed['gid'])
-            elif ('perl/chess.pl?page=' + str(cur+1)) in link.get("href") and hasNext == False:
-                hasNext = True
-                nextURL = 'http://www.chessgames.com/' + link.get("href")
+            elif 'page=' in link.get("href") and hasNext == False:
+                page = int(link.get('href').split('page=')[1].split('&')[0])
+                if page == cur + 1:
+                    hasNext = True
+                    nextURL = 'http://www.chessgames.com/' + link.get("href")
     if nextURL is not None:
         links = links + readGameLinks(nextURL, cur=cur+1)    
     return links
