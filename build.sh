@@ -1,3 +1,4 @@
+python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=123427 > "Richard Rapport.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=52948  > "Magnus Carlsen.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=17316  > "Levon Aronian.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=12088  > "Viswanathan Anand.pgn"
