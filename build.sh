@@ -1,4 +1,4 @@
-python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=130817 > "Anton Smirnov.pgn"
+python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=125070 > "Stockfish.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=12082  > "Zhao Zong-Yuan.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=15797  > "Ian Rogers.pgn"
 python chessgames.py http://www.chessgames.com/perl/chessplayer?pid=123427 > "Richard Rapport.pgn"
